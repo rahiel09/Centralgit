@@ -1,0 +1,127 @@
+    1  yum update -y
+    2  yum install git -y
+    3  yum update git -y
+    4  which git
+    5  git --version
+    6  git config --global.user.name "rahil"
+    7  git config --global user.name "rahil"
+    8  git config --global user.mail "rahil1234@gmail.com"
+    9  git config --list
+   10  mkdir mumbai_git
+   11  cd mumbai_git/
+   12  git 
+   13  git init
+   14  cat > file1
+   15  mv file1 file1234
+   16  ls
+   17  git status
+   18  git add file1234 
+   19  git status
+   20  git commit -m "My new commit from mumbai"
+   21  git status
+   22  git log
+   23  git show a9ed7a6
+   24  git remote add origin https://github.com/rahiel09/Centralgit
+   25  git push -u origin master
+   26  git remote -v
+   27  git push -u -f origin master
+   28  git pull origin master
+   29  ls
+   30  git pull -u origin master
+   31  git pull -u -f origin master
+   32  git pull origin master
+   33  ls
+   34  git pull origin master
+   35  ls
+   36  git pull origin master
+   37  ls
+   38  rm -f file1234 
+   39  git config --global pull.rebase true
+   40  git push -u origin master
+   41  ls
+   42  git push -u origin master
+   43  exit
+   44  cd mumbai_git/
+   45  git init
+   46  git remote add origin https://github.com/rahiel09/Centralgit
+   47  git pull origin master
+   48  git config --global pull.rebase false
+   49  git pull origin master
+   50  ls
+   51  git pull -u origin master
+   52  git pull -f origin master
+   53  ls
+   54  git pull origin master
+   55  git fetch origin master
+   56  ls
+   57  ls
+   58  cat > file2
+   59  git add file2
+   60  git commit -m "Second commit"
+   61  git status
+   62  git restore file1234 
+   63  ls
+   64  git status
+   65  git push -u origin master
+   66  ls
+   67  cat /etc/os-release 
+   68  git pull origin master
+   69  git remote add origin https://github.com/rahiel09/Centralgit.git
+   70  cd mumbai_git/
+   71  git pull origin master
+   72  ls
+   73  more file
+   74  more file1
+   75  git branch
+   76  git branch branch_new
+   77  git branch
+   78  git checkout master
+   79  git checkout branch_new 
+   80  git branch
+   81  cat > branchfile
+   82  git add branchfile 
+   83  git commit -m "branchfile"
+   84  git log --oneline
+   85  git checkout master
+   86  git log --oneline
+   87  git merge branch_new 
+   88  git log --oneline
+   89  git push origin master
+   90  touch demofile
+   91  git add demofile 
+   92  git commit -m "Commit demofile"
+   93  history 
+   94  git config --list
+   95  vi demofile 
+   96  more demofile 
+   97  git stash
+   98  more demofile 
+   99  ls
+  100  more branchfile 
+  101  more demofile 
+  102  git stash list
+  103  vi demofile 
+  104  git stash
+  105  git stash apply stash@{0}
+  106  more demofile 
+  107  git stash list
+  108  git stash apply stash@{1}
+  109  cat demofile 
+  110  git stach
+  111  git stash
+  112  cat demofile 
+  113  git log --onelinw
+  114  git log --oneline
+  115  more demofile 
+  116  git stash list
+  117  git stash apply stash@{1}
+  118  more demofile 
+  119  git stash apply stash@{2}
+  120  more demofile 
+  121  git commit -m "stash commit"
+  122  git add demofile 
+  123  git commit -m "stash commit"
+  124  git stash apply stash@{2}
+  125  cat demofile 
+  126  history 
+  127  history > history_file
